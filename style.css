@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+#personal_information{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#connection{
+    border-radius: 25px;
+    border: solid white;
+}
+
+#skills{
+    display: flex;
+    flex-direction: column;
+}
+#resume{
+    font-size: 50px
+}
+#background{
+    border-radius: 25px;
+    border: solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#skill{
+    border-radius: 25px;
+    border: solid white;
+}
+#selfile{
+    width: 500px;
+    height: 500px;
+}
+@media screen and (max-width: 600px) {
+    body{
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        flex-direction: column;
+    }
+    #personal_information{
+        display: flex;
+        flex-direction: column;
+        font-size: 75%;
+    
+    }
+    
+    #connection{
+        border-radius: 12.5px;
+        border: solid white;
+    }
+    
+    #skills{
+        display: flex;
+        flex-direction: column;
+    }
+    #resume{
+        font-size: 25px
+    }
+    #background{
+        border-radius: 25px;
+        border: solid white;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #skill{
+        border-radius: 25px;
+        border: solid white;
+    }
+    #selfile{
+        width: 250px;
+        height: 250px;
+    }
+}
